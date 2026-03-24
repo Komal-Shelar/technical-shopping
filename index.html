@@ -1,0 +1,171 @@
+<html>
+<head>
+    <title>practical no 24</title>
+    <style>
+        body { font-family: Arial; margin:0; background:#f5f5f5; }
+        header { background:black; color:white; padding:5px; text-align:center; }
+        nav { background:#222; padding:10px; text-align:center; }
+        nav a { color:white; margin:10px; text-decoration:none; }
+        nav a:hover { color:yellow; }
+
+        .container { padding:20px; }
+
+        .grid {
+            display:grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap:20px;
+        }
+
+        .card {
+            background:white;
+            border-radius:10px;
+            padding:15px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.2);
+            text-align:center;
+        }
+
+        .card img {
+            width:100%;
+            height:150px;
+            object-fit:cover;
+            border-radius:10px;
+        }
+
+        .price {
+            color:green;
+            font-weight:bold;
+        }
+
+        button {
+            background:green;
+            color:white;
+            border:none;
+            padding:10px;
+            margin-top:10px;
+            cursor:pointer;
+            border-radius:5px;
+        }
+
+        button:hover { background:darkgreen; }
+
+        footer {
+            text-align:center;
+            padding:10px;
+            background:black;
+            color:white;
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tech Gadgets Shop</h1>
+    <p>Buy Latest Gadgets Online</p>
+</header>
+
+<nav>
+    <a href="#products">Products</a>
+    <a href="#table">Product Features</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+<!-- Login Button -->
+    <a href="login.html" style="float:right; background:green; padding:5px 10px; border-radius:5px;">
+        Login
+    </a>
+</nav>
+
+<div class="container" id="products">
+    <h2>Featured Products</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="images/smartphone.avif">
+
+            <h3>Smartphone</h3> 
+            <p class="price">₹20,000</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="images/headphones.webp">
+
+            <h3>Headphones</h3>
+            <p class="price">₹2,000</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="images/smartwatch.avif">
+            <h3>Smart Watch</h3>
+            <p class="price">₹5,000</p>
+            <button>Add to Cart</button>
+        </div>
+ <div class="card">
+            <img src="images/tv.jpg">
+            <h3>Smart TV</h3>
+            <p class="price">₹13,000</p>
+            <button>Add to Cart</button>
+        </div>
+ </div>
+</div>
+<div class="container" id="Features">
+    <h2>Product Features</h2>
+Smartphone
+<ul type="disc">
+<tt><li><b>Connectivity:</b>  5G</li>
+<li><b>RAM & Storage: </b> 8 GB + 128 GB</li>
+<li><b>Processor:</b>  MediaTek Dimensity 7050 </li>
+<li><b>Camera:</b>  50 MP + 8 MP + 2 MP Triple Rear and 16 MP Front</li>
+<li><b>Battery Capacity: </b> 5000 mAh</li></tt>
+</ul>
+Headphones
+<ul type="disc">
+<tt><li><b>Type:  </b>Wireless Bluetooth Headphones</b>  5G</li>
+<li><b>Playback Time:  </b>Up to 30 hours</li>
+<li><b>Bluetooth Version:  </b>5.2 </li>
+<li><b>Frequency Range: </b> 20 Hz – 20 kHz</li>
+<li><b>Driver Size: </b> 40 mm × 2 (big drivers = strong bass)</li></tt>
+</ul>
+Smart Watch
+<ul type="disc">
+<tt><li><b>Operating System: </b> hyperos</li>
+<li><b>Memory Storage Capacity: </b> 2 MB</li>
+<li><b>Special Feature:</b> Activity Tracker, Notifications, Touchscreen </li>
+<li><b>Connectivity Technology: </b>  Bluetooth</li>
+<li><b>Battery Capacity: </b> 470 Milliamp Hours</li></tt>
+</ul>
+
+Smart TV
+<ul type="disc">
+<tt><li><b>Number of Speakers: </b> 2  </li>
+<li><b>Speaker Output RMS: </b>  20 W </li>
+<li><b>Operating System :</b>  Google TV  </li>
+<li><b>HDMI Ports: </b>  4  470 Milliamp Hours</li>
+<li><b>2 USB Ports</b></li></tt>
+</ul>
+<div class="container" id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Tech Gadgets Shop! We are passionate about bringing the latest technology gadgets to your fingertips. 
+    Our mission is to provide high-quality products at affordable prices with excellent customer service.</p>
+    <p>Founded in 2026, we specialize in smartphones, smartwatches, headphones, and smart TVs. 
+    Explore our range of gadgets and enjoy seamless online shopping.</p>
+</div>
+
+
+<div class="container" id="contact">
+    <h2>Contact</h2>
+    <p><b>Email:</b> techgadgetsshop@gmail.com</p>
+    <p><b>Phone:</b> +91 9876543210</p>
+    <p><b>Address:</b> Mumbai, Maharashtra, India</p>
+    <p><b>Working Hours:</b> 9 AM – 6 PM</p>
+    <a href="#top">Back to Top</a>
+</div>
+<footer>
+    <p>© 2026 Tech Gadgets Shop</p>
+<marquee><center>&#128293; Special Offer: Up to 20% OFF on all gadgets! &#128293;</center></marquee>
+</footer>
+
+</body>
+</html>
